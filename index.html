@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Retorno</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/leaflet.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+<div class="row">
+    <div class="col-sm-12">
+        <header>
+            <h3 id="title">The spatial correlation between libraries/schools and population demographics in Philadelphia. </h3>
+            <i>Xi Wei - Alexis Saenz - Kamol Sarker</i>
+        </header>
+
+    </div>
+    <div class="col-sm-3">
+        <section id="options-map">
+        <section id="controls">
+            <form class="form" role="form">
+                <div class="checkbox">
+                <label>
+                    <input type="checkbox" id="ch-neigh" checked> Neighborhoods
+                </label>
+            </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="ch-libraries" checked> Libraries
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="ch-schools" checked> Schools
+                    </label>
+                </div>
+
+            </form>
+        </section>
+        <section id="info-map">
+
+        </section>
+        </section>
+    </div>
+    <div class="col-sm-9">
+        <div id="map"> </div>
+    </div>
+</div>
+</div>
+
+</body>
+<script src="js/jquery-2.1.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/leaflet.js"></script>
+<script src="js/map.js"></script>
+</html>

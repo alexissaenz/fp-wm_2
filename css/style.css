@@ -1,0 +1,28 @@
+#map{
+    height: 1000px;
+    width: 100%;
+}
+.img-retorno{
+    width: 600px;
+    padding:0px;
+}
+.leaflet-popup-instagram{
+    width: 700px;
+}
+header{
+    background-color: #285e8e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.library{
+    /*width: 300px;*/
+    color: white;
+}
+.library>tbody>tr>th{
+    background-color: #1EA09A
+}
+.library>tbody>tr>td{
+    background-color: #865AAF;
+}
+
